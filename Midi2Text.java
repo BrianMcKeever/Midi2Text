@@ -121,7 +121,7 @@ public class Midi2Text implements ActionListener {
             }
 
             int keySignature = s.getKeySignature();
-            textFile.write("#Key Signature if positive number sharps otherwise flats:\n");
+            textFile.write("#Key Signature. If it's positive, it's the number sharps otherwise the number flats:\n");
             textFile.write(keySignature + "\n");
 
             double longestRhythmValue = s.getLongestRhythmValue();

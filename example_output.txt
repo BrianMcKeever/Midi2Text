@@ -6,7 +6,7 @@ Untitled Score
 100.0
 #Key Quality:
 Major
-#Key Signature if positive number sharps otherwise flats:
+#Key Signature. If it's positive, it's the number sharps otherwise the number flats:
 0
 #Longest Rhythm Value:
 7.0
