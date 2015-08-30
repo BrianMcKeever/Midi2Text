@@ -1,0 +1,63 @@
+#Title:
+Untitled Score
+#Time Signature:
+4/4
+#Beats per Minute:
+100.0
+#Key Quality:
+Major
+#Key Signature if positive number sharps otherwise flats:
+0
+#Longest Rhythm Value:
+7.0
+#Shortest Rhythm Value:
+0.5
+#Start Time - Pitch - Duration - Dynamic - Pitch Name
+#Part:
+Untitled Part
+#Instrument:
+0
+#New Phrase:
+3.0	76	0.5	69	E
+3.5	74	0.5	69	D
+4.0	72	1.0	66	C
+5.0	67	1.0	62	G
+6.0	64	1.0	69	E
+7.0	67	1.0	83	G
+8.0	67	3.0	85	G
+11.0	72	1.0	78	C
+12.0	74	1.0	77	D
+13.0	74	1.0	79	D
+14.0	69	1.0	80	A
+15.0	74	1.0	74	D
+16.0	67	3.0	76	G
+19.0	74	1.0	76	D
+20.0	72	1.0	83	C
+21.0	76	1.0	80	E
+22.0	76	1.0	78	E
+23.0	76	1.0	76	E
+24.0	77	0.5	78	F
+24.5	77	0.5	79	F
+25.0	77	0.5	81	F
+25.5	77	0.5	76	F
+26.0	77	1.0	74	F
+27.0	77	1.0	73	F
+28.0	72	1.0	70	C
+29.0	76	1.0	75	E
+30.0	67	1.0	75	G
+31.0	74	1.0	77	D
+32.0	67	3.0	68	G
+#New Phrase:
+8.0	72	3.0	85	C
+11.0	-2147483648	3.0	0	Rest
+14.0	74	1.0	80	D
+15.0	-2147483648	1.0	0	Rest
+16.0	74	3.0	76	D
+19.0	-2147483648	1.0	0	Rest
+20.0	76	1.0	83	E
+21.0	-2147483648	7.0	0	Rest
+28.0	76	1.0	70	E
+29.0	-2147483648	1.0	0	Rest
+30.0	74	1.0	75	D
+31.0	-2147483648	1.0	0	Rest
+32.0	72	3.0	68	C
