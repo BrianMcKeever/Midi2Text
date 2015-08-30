@@ -1,3 +1,4 @@
 On windows, navigate to the directory you put it in a command prompt, type
 "javac -cp jMusic1.6.4.jar;. Midi2Text.java" to compile it, and then "java -cp
 jMusic1.6.4.jar;. Midi2Text" to run it.
+On linux/mac, do the same but replace the semicolons with colons.
