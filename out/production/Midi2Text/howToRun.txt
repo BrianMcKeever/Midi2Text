@@ -1,0 +1,1 @@
+Navigate to the directory you put it in in a terminal, type "javac Midi2Text.java" to compile it, and then "java Midi2Text" to run it.
