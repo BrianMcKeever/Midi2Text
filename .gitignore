@@ -1,4 +1,7 @@
 .idea
-Midi2Text.iml
+out/
+*.iml
 *.swp
 *.class
+*.mid
+test.txt
