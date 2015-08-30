@@ -89,9 +89,16 @@ public class Midi2Text implements ActionListener {
     private void convert() {
         Score s = new Score();
         Read.midi(s);
+        int size = s.getSize();
+        if(size == 0) { //if the user hit cancel
+            return;
+        }
         // open text file
         try {
-            FileWriter textFile = new FileWriter(saveData());
+
+            String fileName = saveData();
+            if(fileName == null) return;
+            FileWriter textFile = new FileWriter(fileName);
             textFile.write("Start Time" + "\t" + "Pitch" + "\t" +
                     "Duration" + "\t" + "Dynamic" + "\n");
             // read note data and convert
@@ -134,6 +141,8 @@ public class Midi2Text implements ActionListener {
         FileDialog fd = new FileDialog(new Frame(),
                 "Save data as a text file named...", FileDialog.SAVE);
         fd.setVisible(true);
+        if(fd.getFile() == null) return null; //if the user hit cancel, bail
+
         String fileName = fd.getFile();
         if (fileName != null) {
             fileName = fd.getDirectory() + fileName;
